@@ -122,8 +122,18 @@
               "devServerTarget": "phone-book:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "https://arksohail.github.io/angular-breweries/",
+            "repo" : "https://github.com/arksohail/angular-breweries/",
+            "name": "Shaikh Abdul Sohail",
+            "email": "arksohail@gmail.com"
+          }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "phone-book"
 }
